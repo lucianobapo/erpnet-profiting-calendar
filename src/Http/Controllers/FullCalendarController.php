@@ -5,6 +5,7 @@ namespace ErpNET\Profiting\Calendar\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Http\Request;
+use App\Traits\Uploads;
 
 //use ErpNET\Profiting\Calendar\Http\Requests\Event as Request;
 use ErpNET\Profiting\Calendar\Models\Event as Model;
@@ -13,6 +14,7 @@ use ErpNET\Profiting\Calendar\Models\Event as Model;
 
 class FullCalendarController extends Controller
 {
+    use Uploads;
     
     /**
      * Display a listing of the resource.
