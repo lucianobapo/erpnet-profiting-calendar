@@ -13,18 +13,18 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"ErpNET\\ProfitingCalendar\\" : "src/"
+			"ErpNET\\Profiting\\Calendar\\" : "src/"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"ErpNET\\ProfitingCalendarTests\\" : "tests/"
+			"ErpNET\\Profiting\\CalendarTests\\" : "tests/"
 		}
 	},
 	"extra" : {
 		"laravel" : {
 			"providers" : [
-				"ErpNET\\ProfitingCalendar\\Providers\\ErpnetProfitingCalendarServiceProvider"
+				"ErpNET\\Profiting\\Calendar\\Providers\\ErpnetProfitingCalendarServiceProvider"
 			]
 		}
 	},

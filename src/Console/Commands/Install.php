@@ -1,6 +1,6 @@
 <?php
 
-namespace ErpNET\ProfitingCalendar\Console\Commands;
+namespace ErpNET\Profiting\Calendar\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Process\Exception\ProcessFailedException;
@@ -47,7 +47,7 @@ class Install extends Command
         //$this->info(" Backpack\Base installation started. Please wait...");
         $this->progressBar = $this->output->createProgressBar(14);
         $this->progressBar->start();
-        $this->info(" ErpNET\\ProfitingCalendar installation started. Please wait...");
+        $this->info(" ErpNET\\Profiting\\Calendar installation started. Please wait...");
         $this->progressBar->advance();
 
         //step 1
@@ -81,7 +81,7 @@ class Install extends Command
 
         //step 14
         $this->progressBar->finish();
-        $this->info(" ErpNET\\ProfitingCalendar installation finished.");
+        $this->info(" ErpNET\\Profiting\\Calendar installation finished.");
     }
 
     /**
