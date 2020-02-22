@@ -19,7 +19,7 @@ class ErpnetProfitingCalendarServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->projectRootDirr = __DIR__.DIRECTORY_SEPARATOR."..".DIRECTORY_SEPARATOR."..".DIRECTORY_SEPARATOR;
+        $this->projectRootDir = __DIR__.DIRECTORY_SEPARATOR."..".DIRECTORY_SEPARATOR."..".DIRECTORY_SEPARATOR;
         $routesDir = $this->projectRootDir."routes".DIRECTORY_SEPARATOR;
 
         //Routing
